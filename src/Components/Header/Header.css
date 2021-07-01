@@ -1,0 +1,82 @@
+.home{
+    margin-top: 2%;
+   margin: auto;
+   text-align: center;
+}
+.para-content{
+    margin-top: 2%;
+}
+
+.header-content{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+line-height: 1.5;
+
+}
+
+.allContent{
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.goku-gif{
+    
+    width: 40vw;
+    height: 40vh;
+   
+}
+
+.Contact:hover{
+    text-decoration: underline;
+}
+   
+.contact-icons{
+    margin-top: 2%;
+    border: 2px solid white;
+    max-width: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    background-color: black;
+}
+.content{
+    margin-top: 2%;
+    font-size: 30px;
+    margin-bottom: 10%;
+    line-height: 1.5;
+}
+
+@media (max-width: 600px)
+{
+    .home{
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+    p{
+        font-size: 30px !important;
+    }
+    .goku-gif{
+        align-content: center !important;
+        height: 40vh;
+        width: 40vh;
+        margin-left: 15%;
+    }
+    .content{
+        margin-right: 2%;
+    }
+    .content p{
+        font-size: 20px !important;
+    }
+    .header img{
+    height: 10vh;
+    width: 15vh;
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+}
