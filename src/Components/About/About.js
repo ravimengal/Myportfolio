@@ -37,7 +37,7 @@ const About = () => {
       animate="visible"
       exit="exit"
     >
-      <div className="about-title">Namaste 👋!! </div>
+      <div className="about-title">hello 👋!! </div>
       <p>
         Hi, once again this is <b>Ravinder</b> I am 23 year old self-taught Web
         dev 💻 .
